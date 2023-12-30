@@ -11,7 +11,9 @@ Gem::Specification.new do |spec|
     spec.required_ruby_version = '>= 2.4.0'
 
     # Dependencias
-    #spec.add_dependency 'nokogiri'
+    spec.add_dependency 'nokogiri'
+    spec.add_dependency 'net/http'
+    spec.add_dependency 'uri'
 
     # Dependencias de desarrollo
     #spec.add_development_dependency 'rspec'
